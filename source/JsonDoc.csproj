@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Dennysoft.Core.JsonDoc</AssemblyName>
+    <RootNamespace>Dennysoft.Core.JsonDoc</RootNamespace>
+    <Authors>galdenny</Authors>
+    <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    <PackageTags>JsonDoc, Json, Comment, Documentation, Config, Configuration</PackageTags>
+    <Product>JsonDoc: json commenting utility</Product>
+    <Company />
+    <Description>My intention was to create a tool for commenting json based configuration files. 
+Json does not allow any commenting as a standard, but most of the serializers can work with some comments in the document. For configuration files it is essential to have some explanatory documentation over the parameters especially if the parameter set is large enough.I am using this technique for some time now, and I am very satisfied with the results. You can generate your default config file with an ease, and well commented for the operators.</Description>
+    <PackageReleaseNotes>https://github.com/galdenny/JsonDoc</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
