@@ -8,9 +8,19 @@ if the parameter set is large enough.I am using this technique for some time now
 You can generate your default config file with an ease, and well commented for the operators.
 
 ### Usage:
-\[JsonDoc("This is a class level doc A")\]
+```csharp
+[JsonDoc("This is a class level doc A")]
 public class BaseClassA
 {
-    \[JsonDoc("This is a string property")\]
+    [JsonDoc("This is a string property")]
     public string STRING { get; set; }
 }
+```
+#### Output:
+```csharp
+//This is a class level doc A
+{
+   //This is a string property
+   "STRING": "str1"
+}
+```
