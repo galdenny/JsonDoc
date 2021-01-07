@@ -9,12 +9,17 @@ You can generate your default config file with an ease, and well commented for t
 
 ### Usage:
 ```csharp
+//definition
+
 [JsonDoc("This is a class level doc A")]
 public class BaseClassA
 {
     [JsonDoc("This is a string property")]
     public string STRING { get; set; }
 }
+
+//somewhere in your code:
+var doc = JsonDoc.ToDocumentedJson(new BaseClassA(){STRING = "str1"});
 ```
 #### Output:
 ```csharp
