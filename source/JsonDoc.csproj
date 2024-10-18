@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>Dennysoft.Core.JsonDoc</AssemblyName>
     <RootNamespace>Dennysoft.Core.JsonDoc</RootNamespace>
     <Authors>galdenny</Authors>
@@ -21,7 +21,7 @@ Json does not allow any commenting as a standard, but most of the serializers ca
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

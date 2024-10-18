@@ -104,3 +104,8 @@
 /source/bin/Release/netcoreapp2.1/Dennysoft.Core.JsonDoc.deps.json
 /source/bin/Release/Dennysoft.Core.JsonDoc.1.0.0.nupkg
 /source/bin/Debug/Dennysoft.Core.JsonDoc.1.0.0.nupkg
+/.vs
+/test/bin
+/test/obj
+/source/bin
+/source/obj
